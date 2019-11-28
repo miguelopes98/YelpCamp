@@ -1,0 +1,43 @@
+<% include ./partials/header.ejs %>
+
+<div class="container">
+	<h1 style="text-align: center">Register form</h1>
+
+	<div style="width: 30%; margin: 25px auto">
+		<form action="/register" method="POST">
+			<div class="form-group">
+				<label style=" display: block;" for="username">Username</label>
+				<input class="form-control" type="text" name="Imaqtpie" placeholder="username">
+			</div>
+			<div class="form-group">
+				<label style=" display: block;" for="password">Password</label>
+				<input class="form-control" type="password" name="password" placeholder="Huyb86t7VBI*">
+			</div>
+			<div class="form-group">
+				<label style=" display: block;" for="firstName">First Name</label>
+				<input class="form-control" type="text" name="firstName" placeholder="Samantha">
+			</div>
+			<div class="form-group">
+				<label style=" display: block;" for="lastName">Last Name</label>
+				<input class="form-control" type="text" name="lastName" placeholder="Jones">
+			</div>
+			<div class="form-group">
+				<label style=" display: block;" for="description">Description</label>
+				<textarea class="form-control" type="text" name="description" placeholder="Tell us a bit about yourself..."></textarea>
+			</div>
+			<div class="form-group">
+				<label style=" display: block;" for="email">Email</label>
+				<input class="form-control" type="email" name="email" placeholder="joyfulltrickster@gmail.com">
+			</div>
+			<div class="form-group">
+				<label style=" display: block;" for="username">Profile Image Url</label>
+				<input class="form-control" type="text" name="avatar" placeholder="avatar url">
+			</div>
+			<div class="form-group">
+				<button class="form-control btn-primary">Sign Up</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<% include ./partials/footer.ejs %>
