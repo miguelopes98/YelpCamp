@@ -10,7 +10,7 @@
   "author": "Miguel Lopes",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "body-parser": "^1.19.0",
     "check-node-version": "^4.0.1",
     "cloudinary": "^1.17.0",
